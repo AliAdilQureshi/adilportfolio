@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<style type="text/css">
+    .i-color{
+    color: #fca311;
+}
+</style>
+<div class="container  mt-5">
+    <h1 class="text-warning mb-5 border-bottom">OUR TEAM</h1>
+    <div class="row text-center text-white mb-5">
+        <div class="col-sm-6">
+            <a href="https://www.nothing.care/sv" target="_blank"><img src="{% static 'main/images/pic.jpg' %}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="50px"></a>
+    <h3>ALI ADIL QURESHI</h3>
+            <p class="ss-color">SENIOR FULL STACK WEB DEVELOPER</p>
+            <p class="ss-color">RYK, PAKISTAN</p>
+        </div>
+        <div class="col-sm-6">
+             <a href="https://cleargrid.io/" target="_blank"><img src="{% static 'main/images/ala.jpg' %}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="250px"></a>
+    <h3>MAHMUDUL ALAM</h3>
+            <p class="ss-color">SENIOR FULL STACK WEB DEVELOPER</p>
+            <p class="ss-color">NAOGAON, DHAKA, BANGLADESH</p>
+        </div>
+    </div>
+<div class="row text-center text-white mb-5">
+        
+        <div class="col-sm-6">
+             <a href="https://cleargrid.io/" target="_blank"><img src="{% static 'main/images/kashif.jpg' %}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="250px"></a>
+    <h3>KASHIF ALI - GUJJAR</h3>
+            <p class="ss-color">GRAPHIC DESIGNER</p>
+            <p class="ss-color">RYK, PAKISTAN</p>
+        </div>
+        <div class="col-sm-6">
+            <a href="https://www.nothing.care/sv" target="_blank"><img src="{% static 'main/images/azhar.jpg' %}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="50px"></a>
+    <h3>AZHAR IQBAL</h3>
+            <p class="ss-color">JUNIOR FULL STACK WEB DEVELOPER</p>
+            <p class="ss-color">SADIQABAD, PAKISTAN</p>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

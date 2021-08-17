@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+    <img src="{% static 'main/images/pic.jpg' %}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class=" mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent:100px;">
+                I am<b class="text-warning"> Ali Adil Qureshi</b>. I have completed my graducation from 
+            Khwaja Fareed University of Engineering and Information Technology (KFUEIT), Pakistan. After graducation I got a job in software house as a fullstck developer. In 2019 I left the job
+        and started freelacing on fiverr and Upwork.</p>
+                <p>I am expert in Python Django, Machine learning and Wordpress, I have completed lots of projects on fiverr and upwork.
+            </p>
+            <p>Now I am doing my Master's at Khwaja Fareed University of Engineering and Information Technology (KFUEIT), pakistan. I have published my two researcch papers in machine learning and now working lots of other papers.
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="https://www.fiverr.com/djangomaster1" class="btn btn-outline-warning my-3 mr-5">Fiverr</a>
+        <a href="https://www.upwork.com/o/profiles/users/~01b11dff22cf7a6e15/?viewMode=1" class="btn btn-outline-success my-3 mr-5">Upwork</a>
+        <a href="" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+    
+</div>
+
+{% endblock content %}
